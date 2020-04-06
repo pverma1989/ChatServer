@@ -1,0 +1,4 @@
+rootProject.name = 'ChatServer'
+
+println("I am in settings.gradle")
+

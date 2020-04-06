@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'findbugs'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '28.2-jre'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+findbugs {
+    ignoreFailures = false
+    toolVersion = "3.0.1"
+    sourceSets=[sourceSets.main]
+   // excludeFilter = file("config/findbugs/excludeFilter.xml")
+    reportsDir = file("$project.buildDir/reports/findbugs")
+    effort = "max"
+}
+
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+}
+
+
+task engine(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.main.Main"
+}
+

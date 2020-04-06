@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="C:\custom\code\ChatServer\src\main\java\com\main\Client\ClientEngine.java">
+</file>
+<file name="C:\custom\code\ChatServer\src\main\java\com\main\Engine\S3Client.java">
+</file>
+<file name="C:\custom\code\ChatServer\src\main\java\com\main\Main.java">
+</file>
+<file name="C:\custom\code\ChatServer\src\main\java\com\main\Server\ServerEngine.java">
+</file>
+</checkstyle>
