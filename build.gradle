@@ -35,9 +35,13 @@ tasks.withType(FindBugs) {
     }
 }
 
-
 task engine(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     main = "com.main.Main"
+    args = [engine]
 }
-
+task typeString(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.main.Main"
+    args = [typeString]
+}

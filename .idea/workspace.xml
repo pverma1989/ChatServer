@@ -83,22 +83,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1848" height="268" key="GridCell.Tab.0.bottom" timestamp="1586169717764">
+    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586267439403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586169717764" />
-    <state width="1848" height="268" key="GridCell.Tab.0.center" timestamp="1586169717764">
+    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586267439403" />
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom" timestamp="1586482463832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586169717764" />
-    <state width="1848" height="268" key="GridCell.Tab.0.left" timestamp="1586169717764">
+    <state width="1865" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586482463832" />
+    <state width="1865" height="270" key="GridCell.Tab.0.center" timestamp="1586482463832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586169717764" />
-    <state width="1848" height="268" key="GridCell.Tab.0.right" timestamp="1586169717764">
+    <state width="1865" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586482463832" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left" timestamp="1586482463831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586169717764" />
+    <state width="1865" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586482463831" />
+    <state width="1865" height="270" key="GridCell.Tab.0.right" timestamp="1586482463832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586482463832" />
+    <state x="230" y="51" key="new project wizard" timestamp="1586330474392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="51" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586330474392" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1586069951365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,26 +1,28 @@
 package com.main;
-import com.main.Client.*;
-import com.main.Server.*;
 
-import java.io.FileNotFoundException;
+import com.main.Client.ClientEngine;
+import com.main.Server.ServerEngine;
+import java.io.IOException;
 
 public final class Main {
 
-    private Main() {
+    private Main(){
 
     }
-    public static void main(final String[] args) {
 
-        String engine = "Client";
-        switch (engine) {
-            case "Client": ClientEngine.runClient();
+    public static void main(String[] args) throws IOException {
+        String engine = "client";
+        engine = engine.toLowerCase();
+        switch( engine ) {
+            case "client": ClientEngine.runClient();
+                System.out.println("Client is connecting");
                 break;
-            case "Server": ServerEngine.runServer();
+            case "server": ServerEngine.runServer();
+                System.out.println("Client is connecting");
                 break;
             default:
-                break;
+                System.out.println("no match");
         }
-        System.out.println(engine + " program will execute");
     }
 }
 
